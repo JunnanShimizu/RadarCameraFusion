@@ -46,7 +46,7 @@ def generate_launch_description():
       
   radarcamera_node = Node(
     package='radarcamera_fusion',
-    executable='radarcamera_fusion'
+    executable='radarcamera_node'
   )
 
   return LaunchDescription([
